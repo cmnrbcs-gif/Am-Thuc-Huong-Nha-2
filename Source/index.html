@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ẩm Thực Hương Nhà - Hương Vị Quê Nhà</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ========== HEADER / NAV ========== -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="#home" class="logo">Ẩm Thực <span>Hương Nhà</span></a>
+            <nav class="nav" id="nav">
+                <a href="#home">Trang chủ</a>
+                <a href="#features">Đặc sắc</a>
+                <a href="#about">Giới thiệu</a>
+                <a href="#products">Món ăn</a>
+                <a href="#services">Dịch vụ</a>
+                <a href="#contact">Liên hệ</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+        </div>
+    </header>
+
+    <!-- ========== BANNER / HERO  ========== -->
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1559314809-0d155014e29e?w=1600&q=80');">
+                <div class="hero-content">
+                    <p class="hero-subtitle">Hơn 100 món ăn truyền thống</p>
+                    <h1>ẨM THỰC VIỆT NAM</h1>
+                    <p class="hero-desc">Hương vị quê nhà – Từ bàn tay người Việt</p>
+                    <a href="#products" class="btn">Khám phá ngay</a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1596797038530-2c107229654b?w=1600&q=80');">
+                <div class="hero-content">
+                    <p class="hero-subtitle">Tinh hoa ẩm thực</p>
+                    <h1>PHỞ BÒ HÀ NỘI</h1>
+                    <p class="hero-desc">Nước dùng trong vắt – Bánh phở mềm dai</p>
+                    <a href="#products" class="btn">Xem thực đơn</a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=1600&q=80');">
+                <div class="hero-content">
+                    <p class="hero-subtitle">Đặc sản miền Trung</p>
+                    <h1>BÚN BÒ HUẾ</h1>
+                    <p class="hero-desc">Cay nồng – Đậm đà hương vị cố đô</p>
+                    <a href="#products" class="btn">Đặt món</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+        </div>
+    </section>
+
+    <!-- ========== FEATURES ========== -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Điểm nổi bật</h2>
+                <p>Lý do bạn nên chọn Ẩm Thực Hương Nhà</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🌿</div>
+                    <h3>Nguyên liệu tươi</h3>
+                    <p>Tất cả nguyên liệu được chọn lọc kỹ lưỡng mỗi ngày từ các chợ đầu mối và nông trại sạch.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👨‍🍳</div>
+                    <h3>Đầu bếp chuyên nghiệp</h3>
+                    <p>Đội ngũ đầu bếp giàu kinh nghiệm, giữ trọn hương vị truyền thống Việt Nam.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Giao hàng nhanh</h3>
+                    <p>Giao tận nơi trong vòng 30-45 phút nội thành, giữ nóng món ăn.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="about" id="about">
+        <div class="container about-inner">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80" alt="Nhà hàng Ẩm Thực Việt">
+            </div>
+            <div class="about-content">
+                <h2>Về chúng tôi</h2>
+                <p class="about-lead">Ẩm Thực Hương Nhà ra đời từ tình yêu với những món ăn truyền thống của mẹ.</p>
+                <p>Năm 2015, chúng tôi chỉ là một quán nhỏ với vài món phở và bún. Dần dần, nhờ sự ủng hộ của thực khách, chúng tôi đã mở rộng thành nhà hàng chuyên về ẩm thực Việt Nam với hơn 80 món ăn từ 3 miền.</p>
+                <p>Chúng tôi tự hào mang đến không chỉ món ăn ngon mà còn là câu chuyện văn hóa, lịch sử và tình cảm gắn liền với từng món.</p>
+                <ul class="about-list">
+                    <li>✓ Hơn 10 năm kinh nghiệm</li>
+                    <li>✓ 80+ món ăn truyền thống</li>
+                    <li>✓ Phục vụ hơn 50.000 thực khách mỗi năm</li>
+                    <li>✓ Nguyên liệu sạch, nguồn gốc rõ ràng</li>
+                </ul>
+                <a href="#contact" class="btn btn-outline">Liên hệ ngay</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PRODUCTS (Món ăn) ========== -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Thực đơn đặc sắc</h2>
+                <p>Những món ăn được yêu thích nhất</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=600&q=80" alt="Phở Bò">
+                        <span class="badge">Bán chạy</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Phở Bò Hà Nội</h3>
+                        <p>Nước dùng xương bò ninh 12 giờ, bánh phở mềm, thịt bò tái/nạm/gầu.</p>
+                        <div class="product-footer">
+                            <span class="price">65.000đ</span>
+                            <a href="#contact" class="btn-sm">Đặt món</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600&q=80" alt="Bún Bò Huế">
+                    </div>
+                    <div class="product-info">
+                        <h3>Bún Bò Huế</h3>
+                        <p>Nước dùng cay nồng đặc trưng, chả cua, huyết, rau sống đầy đủ.</p>
+                        <div class="product-footer">
+                            <span class="price">70.000đ</span>
+                            <a href="#contact" class="btn-sm">Đặt món</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" alt="Cơm Tấm">
+                    </div>
+                    <div class="product-info">
+                        <h3>Cơm Tấm Sài Gòn</h3>
+                        <p>Sườn nướng thơm lừng, bì, chả, trứng ốp la, nước mắm chua ngọt.</p>
+                        <div class="product-footer">
+                            <span class="price">55.000đ</span>
+                            <a href="#contact" class="btn-sm">Đặt món</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1626804475297-41608ea09aeb?w=600&q=80" alt="Bánh Xèo">
+                    </div>
+                    <div class="product-info">
+                        <h3>Bánh Xèo Miền Tây</h3>
+                        <p>Vỏ bánh giòn tan, nhân tôm thịt, giá đỗ, ăn kèm rau sống và nước mắm.</p>
+                        <div class="product-footer">
+                            <span class="price">80.000đ</span>
+                            <a href="#contact" class="btn-sm">Đặt món</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600&q=80" alt="Gỏi Cuốn">
+                    </div>
+                    <div class="product-info">
+                        <h3>Gỏi Cuốn Tôm Thịt</h3>
+                        <p>Tươi ngon, thanh đạm, chấm nước tương đậu phộng đặc biệt.</p>
+                        <div class="product-footer">
+                            <span class="price">45.000đ</span>
+                            <a href="#contact" class="btn-sm">Đặt món</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&q=80" alt="Chè">
+                    </div>
+                    <div class="product-info">
+                        <h3>Yaourt Dâu</h3>
+                        <p>Món tráng miệng thanh mát, dâu tây ngọt, yaourt béo ngậy.</p>
+                        <div class="product-footer">
+                            <span class="price">25.000đ</span>
+                            <a href="#contact" class="btn-sm">Đặt món</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Dịch vụ của chúng tôi</h2>
+                <p>Phục vụ tận tâm mọi nhu cầu</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&q=80" alt="Đặt bàn">
+                    <h3>Đặt bàn trước</h3>
+                    <p>Đặt bàn online hoặc gọi điện để giữ chỗ, đặc biệt vào cuối tuần và ngày lễ.</p>
+                    <a href="#contact" class="btn-sm">Đặt ngay</a>
+                </div>
+                <div class="service-card">
+                    <img src="images/images.jpg" alt="Giao hàng">
+                    <h3>Giao hàng tận nơi</h3>
+                    <p>Giao hàng nhanh chóng trong nội thành, giữ nóng món ăn bằng hộp chuyên dụng.</p>
+                    <a href="#contact" class="btn-sm">Gọi ship</a>
+                </div>
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1555244162-803834f70033?w=600&q=80" alt="Tiệc">
+                    <h3>Tổ chức tiệc</h3>
+                    <p>Nhận đặt tiệc sinh nhật, họp mặt, liên hoan với menu đa dạng và giá ưu đãi.</p>
+                    <a href="#contact" class="btn-sm">Tư vấn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== CONTACT ========== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Liên hệ với chúng tôi</h2>
+                <p>Chúng tôi luôn sẵn sàng phục vụ bạn</p>
+            </div>
+            <div class="contact-inner">
+                <div class="contact-info">
+                    <h3>Thông tin liên hệ</h3>
+                    <ul class="contact-list">
+                        <li>
+                            <strong>📍 Địa chỉ:</strong><br>
+                            179/33 Phường Tân Chánh Hiệp, Quận 12, TP. Hồ Chí Minh
+                        </li>
+                        <li>
+                            <strong>📧 Email:</strong><br>
+                            cmnrbcs@gmail.com
+                        </li>
+                        <li>
+                            <strong>📞 Điện thoại:</strong><br>
+                            0387039501
+                        </li>
+                        <li>
+                            <strong>🕒 Giờ mở cửa:</strong><br>
+                            8:00 – 22:00 (Tất cả các ngày trong tuần)
+                        </li>
+                    </ul>
+                    <div class="social">
+                        <a href="#" title="Facebook">📘</a>
+                        <a href="#" title="Instagram">📷</a>
+                        <a href="#" title="Zalo">💬</a>
+                    </div>
+                </div>
+
+                <!-- Form liên hệ (Y1) -->
+                <form class="contact-form" action="#" method="post">
+                    <h3>Gửi tin nhắn</h3>
+                    <div class="form-group">
+                        <label for="name">Họ và tên</label>
+                        <input type="text" id="name" name="name" placeholder="Nhập họ tên của bạn" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="email@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Số điện thoại</label>
+                        <input type="tel" id="phone" name="phone" placeholder="0901 234 567">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Nội dung</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Bạn muốn đặt bàn, gọi món hay hỏi thông tin gì?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Gửi liên hệ</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2024 Ẩm Thực Hương Nhà. All rights reserved.</p>
+        </div>
+    </footer>
